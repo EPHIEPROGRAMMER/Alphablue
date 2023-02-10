@@ -28,7 +28,76 @@
 
   <!--  Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js" integrity="sha512-fTTVSuY9tLP+l/6c6vWz7uAQqd1rq3Q/GyKBN2jOZvJSLC5RjggSdboIFL1ox09/Ezx/AKwcv/xnDeYN9+iDDA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  // Attract
+var animation = bodymovin.loadAnimation({
 
+  container: document.getElementById('attract'),
+  
+  path: 'attract.json',
+  
+  renderer: 'svg',
+  
+  loop: true,
+  
+  autoplay: true,
+  
+  name: "Demo Animation",
+  
+  });      
+// convert
+var animation = bodymovin.loadAnimation({
+
+container: document.getElementById('convert'),
+
+path: 'convert.json',
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+name: "Demo Animation",
+
+});      
+// Engage
+var animation = bodymovin.loadAnimation({
+
+container: document.getElementById('engage'),
+
+path: 'engage.json',
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+name: "Demo Animation",
+
+});      
+
+// Sell
+var animation = bodymovin.loadAnimation({
+
+container: document.getElementById('sell'),
+
+path: 'sell.json',
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+name: "Demo Animation",
+
+});      
+
+
+</script>
  
 </head>
 
@@ -38,7 +107,7 @@
   <div id="topbar" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@alphabluemillenium.com</a>
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">alphablueltd@gmail.com </a>
         <i class="bi bi-phone-fill phone-icon"></i> +1 76 55488 55
       </div>
       <div class="cta d-none d-md-block">
@@ -78,8 +147,9 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Alpha Blue Millenium</span></h2>
-          <p class="animate__animated animate__fadeInUp">Outsmart the competition with best-in-class digital marketing services. Start seeing the growth you're looking for online. Ramp up your business's online presence with a marketing campaign that delivers the results you want!</p>
+          <h2 class="animate__animated animate__fadeInDown">Scale your business with <span>Alpha Blue Millenium</span></h2>
+          <p class="animate__animated animate__fadeInUp">Our team of experienced digital marketers will craft a tailored strategy that is tailored to your unique business needs. We know what works and will drive maximum ROI for you.
+          </p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -87,8 +157,10 @@
       <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lets create the next success story.</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <h2 class="animate__animated animate__fadeInDown">We know what works - the power of data </h2>
+          <p class="animate__animated animate__fadeInUp">We don't just offer marketing plans — we unlock the power of data to help your business reach its fullest potential. Our comprehensive approach to digital marketing empowers you with the tools to be successful in today's competitive world.
+
+          </p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -96,8 +168,8 @@
       <!-- Slide 3 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <h2 class="animate__animated animate__fadeInDown">Release your full potential </h2>
+          <p class="animate__animated animate__fadeInUp">With our cutting-edge analytics suite, we'll track your progress and adjust our campaigns accordingly to ensure you're getting the best results possible.</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -122,33 +194,107 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Launch Strategy</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+              <h4 class="title"><a href="">Attract</a></h4>
+              <p class="description">Our team of experts designs a launch strategy that .</p>
+
+                <div id="attract"></div>    
+                <script>
+                  var animation = bodymovin.loadAnimation({
+
+container: document.getElementById('attract'),
+
+path: 'attract.json',
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+name: "Demo Animation",
+
+});      
+                </script>    
+              
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Lead Generation</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4 class="title"><a href="">Convert</a></h4>
+              <p class="description">We offer unique lead-generation ease customer engagement.</p>
+            
+              <div id="convert"></div>        
+              <script>
+                var animation = bodymovin.loadAnimation({
+
+container: document.getElementById('convert'),
+
+path: 'convert.json',
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+name: "Demo Animation",
+
+});      
+              </script>    
+
+
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Social Media Marketing</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 class="title"><a href="">Engage</a></h4>
+              <p class="description">Our social media manac and build , Twitter, Instagram, etc. </p>
+              <div id="engage"></div>
+              <script>
+                var animation = bodymovin.loadAnimation({
+
+container: document.getElementById('engage'),
+
+path: 'enga.json',
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+name: "Demo Animation",
+
+});      
+              </script>    
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4 class="title"><a href="">Community Management</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 class="title"><a href="">Sell</a></h4>
+              <p class="description">At vero eos et accusamus  voluptatum deleniti atque</p>
+              <div id="sell"></div>
+              <script>
+                var animation = bodymovin.loadAnimation({
+
+container: document.getElementById('sell'),
+
+path: 'se.json',
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+name: "Demo Animation",
+
+});      
+              </script>    
             </div>
           </div>
 
@@ -163,36 +309,17 @@
 
         <div class="section-title">
           <h2>Why Alpha Blue Millenium</h2>
-          <p>We are a well-versed diverse team of marketing experts, social media leads, community managers, copywriters, SEO technicians and brand experts that have teamed up to ramp up your business online.</p>
+          <p>Alpha Blue Millennium is the go-to digital marketing agency for unlocking your full potential. We provide marketing solutions tailored to your business that will help you reach your goals, maximise your ROI and build a strong brand presence in the digital world.
+          </p>
         </div>
 
-        <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
+       
 
       </div>
     </section><!-- End About Us Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <!-- <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
 
         <div class="clients-slider swiper">
@@ -211,7 +338,7 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section>End Clients Section -->
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
@@ -226,44 +353,42 @@
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
 
             <div class="content">
-              <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+              <h3>Why Alpha Blue Millenium? <strong>We know what works
+              </strong></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
+                Our team of experienced digital marketers will craft a tailored strategy that is tailored to your unique business needs. We know what works and will drive maximum ROI for you.              </p>
             </div>
 
             <div class="accordion-list">
               <ul>
                 <li data-aos="fade-up" data-aos-delay="100">
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Unparalleled Expertise <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                    </p>
+                      Our team of highly experienced digital marketers have decades of combined experience in crafting individualised strategies that ensure maximum ROI and strong growth for any business.                    </p>
                   </div>
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="200">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Proven Strategiess <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                    </p>
-                  </div>
+                      Our tried and tested strategies have been proven to generate results for our clients time and time again. We offer a comprehensive suite of services such as SEO, content creation, website management, and more!
+                    </div>
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="300">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Data-driven Results
+                    <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                    </p>
+                      We use cutting-edge technology and data-driven insights to create comprehensive plans tailored to your business needs. Our campaigns are designed to get tangible results in the shortest amount of time possible.                    </p>
                   </div>
                 </li>
 
               </ul>
             </div>
-
+            
           </div>
 
         </div>
@@ -283,44 +408,64 @@
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Business Strategy</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4><a href="#">Smart Launch strategy</a></h4>
+              <p>Our team of experts designs a launch strategy that meets your business goals and offers maximum ROI. We ensure that your products and services reach the right audience and create an impactful first impression.</p>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Social Media Marketing</a></h4>
-              <p>We promote our customers' projects and business ideas with an efficient marketing strategy.
-                We extend our SMM services on multiple platforms like Facebook, Instagram, and Twitter for marketing our products.</p>
+              <h4><a href="#">Lead Generation at its best
+              </a></h4>
+              <p>We offer unique lead-generation campaigns that help you capture more leads with minimal effort. With our proven strategies, you can quickly get more leads and increase customer engagement.
+              </p>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Community Management</a></h4>SEM / SEO Marketing
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4><a href="#">Social media management and marketing</a></h4>
+              <p>Our social media management solutions are designed to help you drive organic traffic and build relationships with potential customers on social media platforms like Facebook, Twitter, Instagram, etc. We also offer complete social media marketing strategies for maximum reach.</p>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="400">
             <div class="icon-box">
               <i class="bi bi-brightness-high"></i>
-              <h4><a href="#">SEM / SEO Marketing</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4><a href="#">Community management
+              </a></h4>
+              <p>This is specifically designed for projects or products that require growing a particular type of audience. We increase your community and manage it by teaching the members detailed project/product features while engaging to answer their concerns and inquiries say on discord or telegram.</p>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
               <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">Email & Marketing Automation</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4><a href="#">SEO/SEM marketing
+              </a></h4>
+              <p>At our digital marketing agency, we specialise in SEO and SEM services to help boost online visibility and generate leads for businesses. With our effective campaigns, we'll help you reach your goals and get more customers.</p>
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Content Marketing</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <h4><a href="#">Email MARKETING and automation
+              </a></h4>
+              <p>We use email automation tools to simplify email marketing efforts and increase conversions by sending out personalised emails to targeted emails. Our tried and tested software provides us with a high click-through rate ensuring more brand visibility.</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">Content marketing
+              </a></h4>
+              <p>We create content that connects with your target audience in an authentic way. Our content marketing strategies will help you engage more customers, build trust and create a loyal customer base for your brand</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">SEO/SEM marketing
+              </a></h4>
+              <p>At our digital marketing agency, we specialise in SEO and SEM services to help boost online visibility and generate leads for businesses. With our effective campaigns, we'll help you reach your goals and get more customers.</p>
             </div>
           </div>
         </div>
@@ -335,7 +480,8 @@
         <div class="row" data-aos="zoom-in">
           <div class="col-lg-9 text-center text-lg-start">
             <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> Contact us today to scale your business to the next level.
+            </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Call To Action</a>
@@ -358,8 +504,8 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Corporate</li>
-              <li data-filter=".filter-card">Blockchain</li>
+              <li data-filter=".filter-app">Local Brands</li>
+              <li data-filter=".filter-card">Global Clients</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
@@ -370,8 +516,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
+              <h4>Imarika Properties</h4>
+              <p><a href="https://imarikaproperties.com/" target="_blank" rel="noopener noreferrer"></a></p>
               <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -477,14 +623,13 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Moses Ndirangu</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <h4>Moses Kariuki</h4>
+                <span>The Life of The Party</span>
+                <p> Moses is the engineer behind all the cogs that exist at Alpha Blue Millennium Marketing Agency. With his efficacious demeanour, he is in charge of the overall swift running of the agency.</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://twitter.com/MOKAR_001"><i class="ri-twitter-fill"></i></a>
+                  <a href="https://www.instagram.com/mokar_001/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/moses-ndirangu-alphablue/"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -494,14 +639,15 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Erick Kinuthia</h4>
-                <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <h4>Ephantus Kinuthia</h4>
+                <span> The Software Wizard</span>
+                <p>Ephantus is a computer geek who finds all software integrations, plugins, and technical details around marketing platforms a cakewalk. His apprehension in IT ensures Alpha Blue transcends all our automated marketing needs.
+                </p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://twitter.com/EphyKinuthia"><i class="ri-twitter-fill"></i></a>
+                
+                  <a href="https://www.instagram.com/ephykinuthia/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/ephykinuthia/"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -511,14 +657,13 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Ephantus Kinuthia</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <h4>Eric Kinuthia</h4>
+                <span>The Astute Salesman</span>
+                <p>Eric boasts of an unbowed track record as a closer. His creative and witty psyche comes in handy to give Alpha Blue a unique standpoint in delivering outstanding results to its clients.</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://twitter.com/EricKinuthia13"><i class="ri-twitter-fill"></i></a>
+                  <a href="https://www.instagram.com/ericcoh_kinuthia/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/erickinuthia/"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -529,13 +674,13 @@
               <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Kelvin Karanja</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <span>The Strategic Waldo Waldman</span>
+                <p>Kelvin is abreast with marketing and consumer trends happening around the hood and across the seas of the internet. His affinity for “What’s new?” in the digital space ensures Alpha Blue is always ahead of the pack.</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://twitter.com/KaranjaKevz"><i class="ri-twitter-fill"></i></a>
+               
+                  <a href="https://www.instagram.com/kevzkaranja/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/kelvinkaranja/"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -623,13 +768,13 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Nairobi, Kenya</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>alphablueltd@gmail.com</p>
               </div>
 
               <div class="phone">
@@ -684,7 +829,7 @@
         <div class="row">
           <div class="col-lg-6">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Subscribe to Alpha Blue’s marketing and industry trends newsletter</p>
           </div>
           <div class="col-lg-6">
             <form action="" method="post">
@@ -702,40 +847,42 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfoio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Our Team</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Smart Launch strategy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Lead Generation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Social media management and marketing
+              </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Community management
+              </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Content marketing</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
+              
+              Nairobi<br>
+              Kenya <br><br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong> alphablueltd@gmail.com<br>
             </p>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
             <h3>About Alpha Blue Millenium</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Alpha Blue Millennium is the go-to digital marketing agency for unlocking your full potential. We provide marketing solutions tailored to your business that will help you reach your goals, maximise your ROI and build a strong brand presence in the digital world.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -758,7 +905,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/Alpha Blue Millenium-free-multipurpose-one-page-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://twitter.com/EphyKinuthia">Ephy Kinuthia</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -775,6 +922,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
+  
   <script src="assets/js/main.js"></script>
 
 </body>
